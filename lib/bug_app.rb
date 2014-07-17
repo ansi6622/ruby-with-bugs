@@ -34,7 +34,7 @@ class Bugs
   end
 
   def state
-    "I live in #{@user[:state]}"
+    "I live in #{@user[:address]["state"]}"
   end
 
   def zip
