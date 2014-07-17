@@ -30,7 +30,7 @@ class Bugs
   end
 
   def street_address
-    "I live on #{@user["street"]}"
+    "I live on #{@user[:address][:street]}"
   end
 
   def state
