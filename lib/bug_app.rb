@@ -26,7 +26,7 @@ class Bugs
   end
 
   def greeting
-    "Hi, my name is #{@users[:first_name]} #{@users[:last_name]}"
+    "Hi, my name is #{@user[:name][:first]} #{@user[:name][:last]}"
   end
 
   def street_address
