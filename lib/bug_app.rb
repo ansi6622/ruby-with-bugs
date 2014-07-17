@@ -38,7 +38,7 @@ class Bugs
   end
 
   def zip
-    "My zipcode is #{@user[:zip]}"
+    "My zipcode is #{@user[:address][:zipcode]}"
   end
 
   def fish(state)
